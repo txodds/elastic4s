@@ -8,13 +8,13 @@ travisBuildNumber in Global := sys.env.getOrElse("TRAVIS_BUILD_NUMBER", "0")
 val org                    = "com.sksamuel.elastic4s"
 val AkkaVersion            = "2.6.8"
 val AkkaHttpVersion        = "10.1.12"
-val CatsVersion            = "2.0.0"
-val CatsEffectVersion      = "2.1.4"
-val CirceVersion           = "0.13.0"
+val CatsVersion            = "2.7.0"
+val CatsEffectVersion      = "3.3.0"
+val CirceVersion           = "0.14.1"
 val CommonsIoVersion       = "2.7"
 val ElasticsearchVersion   = "7.8.0"
 val ExtsVersion            = "1.61.1"
-val JacksonVersion         = "2.11.1"
+val JacksonVersion         = "2.13.0"
 val Json4sVersion          = "3.6.9"
 val Log4jVersion           = "2.13.3"
 val MockitoVersion         = "3.4.4"
@@ -32,8 +32,8 @@ val Slf4jVersion           = "1.7.30"
 val ScalatestPlusMockitoArtifactId = "mockito-3-2"
 
 lazy val commonScalaVersionSettings = Seq(
-  scalaVersion := "2.12.12",
-  crossScalaVersions := Seq("2.12.12", "2.13.3")
+  scalaVersion := "2.12.15",
+  crossScalaVersions := Seq("2.12.15", "2.13.7")
 )
 
 lazy val warnUnusedImport = Seq(

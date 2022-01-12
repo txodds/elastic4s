@@ -29,3 +29,5 @@ esdata
 *.sublime-workspace
 *.metals
 *.bloop
+
+metals.sbt
